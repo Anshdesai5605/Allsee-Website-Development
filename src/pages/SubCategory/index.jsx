@@ -2,11 +2,11 @@ import React from 'react'
 import { useParams } from 'react-router';
 
 const SubCategory = () => {
-  const {mainCategory, SubCategory} = useParams();
+  const {mainCategory, subCategory} = useParams();
   
   return (
     <p>
-      {mainCategory}/{SubCategory}
+      {mainCategory}/{subCategory}
     </p>
   );
 };
