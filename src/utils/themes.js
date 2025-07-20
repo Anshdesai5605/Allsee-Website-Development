@@ -4,12 +4,12 @@ export const theme = {
     colors: {
         primary: '#FFFAF0',
         secondary: '#f5f5f5',
-        primartext: "#000000",
+        primarytext: "#000000",
         secondarytext: "#ffffff",
         accent: "#E43F6F",
         blackShade: "#333333"
     },
-    Typography: {
+    typography: {
         desktopHeading: "48px",
         desktopSubheading: "24px",
         desktopBody: "16px",
