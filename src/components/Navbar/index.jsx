@@ -10,6 +10,7 @@ import {
   NavbarMobileItem,
   Anchor,
   CTAEnquiryNow,
+  Divider,
 } from "./styles";
 
 
@@ -37,8 +38,11 @@ const toggleMenu = () => {
         <NavbarMobileMenuIcon onClick={toggleMenu} src= {isMenuOpen ? "/assets/close_circle.svg" :  "/assets/menu.svg"} />
         <NavbarMobileMenu className={isMenuOpen ? "active" : ""}>
           <NavbarMobileItem to="/" onClick={toggleMenu}>Home</NavbarMobileItem>
+          <Divider />
           <NavbarMobileItem to="/about" onClick={toggleMenu}>About</NavbarMobileItem> 
+          <Divider />
           <NavbarMobileItem to="/contact" onClick={toggleMenu}>Contact</NavbarMobileItem> 
+          <Divider />
           <NavbarMobileItem to="/categories" onClick={toggleMenu}>Categories</NavbarMobileItem> 
           <Anchor href="#">
           <CTAEnquiryNow>Enquiry now</CTAEnquiryNow>

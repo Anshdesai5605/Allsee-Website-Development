@@ -202,5 +202,12 @@ export const NavbarMobileItem = styled(NavLink)`
 `
 
 export const Divider = styled.div`
-    
+    width: 100%;
+    height: 1px;
+    background-color: #dbdbdb;
+    margin: 10px 0;
+
+    @media screen and (max-width: 768px) {
+        margin: 5px 0;
+    }
 `
