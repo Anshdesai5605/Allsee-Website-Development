@@ -177,6 +177,7 @@ export const ScrollingContent = styled.div`
     transform: rotate(2deg);
     z-index: 1;
     scrollbar-width: none;
+    color: white;
 
     &::-webkit-scrollbar {
         display: none;
