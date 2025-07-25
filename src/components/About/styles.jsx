@@ -19,7 +19,7 @@ export const AboutContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 
     @media screen and (max-width: 860px) {
