@@ -78,3 +78,27 @@ export const categories = [
         link: "/categories/hospital-linen"
     }
 ]
+
+export const testimonials = [
+    {
+        id: 0,
+        name: "John Doe",
+        bgColor: "#DE7700",
+        testimonial: "Allsee's textiles transformed our brand image. The quality is unmatched!",
+        stars: 4
+    },
+    {
+        id: 1,
+        Name: "Ansh Desai",
+        bgColor: "#E9E8E8",
+        testimonial: "Allsee's textiles transformed our brand image. The quality is unmatched!",
+        stars: 4
+    },
+    {
+        id: 2,
+        Name: "Olivia Wilson",
+        bgColor: "#494847",
+        testimonial: "Allsee's textiles transformed our brand image. The quality is unmatched!",
+        stars: 5,
+    },
+]
