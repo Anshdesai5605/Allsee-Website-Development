@@ -25,9 +25,9 @@ const Testimonials = () => {
                             <TestimonialCard
                             key={testimonial.id}
                             bgColor={testimonial.bgColor}
-                            className={`testimonial-caard-${testimonial.id}`}
+                            className={`testimonial-card-${testimonial.id}`}
                             >
-                                <CustomerName>{testimonial.name}</CustomerName>
+                                <CustomerName>{testimonial.Name}</CustomerName>
                                 <TestimonialText>{testimonial.testimonial}</TestimonialText>
                                 <Rating name="read-only" value={testimonial.stars} readOnly />
                             </TestimonialCard>

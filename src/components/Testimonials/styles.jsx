@@ -34,7 +34,7 @@ export const TestimonialsContainer = styled.div`
 
 export const Heading = styled.h2`
     font-size: ${({ theme }) => theme.typography.desktopHeading};
-    color: ${({ theme }) => theme.colors.secondaryText};
+    color: ${({ theme }) => theme.colors.secondarytext};
     margin-bottom: 60px;
     font-family: "Playfair Display", serif;
 
@@ -66,7 +66,7 @@ export const TestimonialCard = styled.div`
 
     &.testimonial-card-0,
     &.testimonial-card-1 {
-        color: ${({ theme }) => theme.colors.secondaryText} !important;
+        color: ${({ theme }) => theme.colors.secondarytext} !important;
     }
 
     @media screen and (max-width: 768px) {
@@ -80,23 +80,23 @@ export const TestimonialCard = styled.div`
 `
 
 export const CustomerName = styled.h3`
-    font-size: calc(${({ theme}) => theme.typography.desktopSubHeading} + 8px);
-    color: ${({ theme }) => theme.colors.primaryText};
+    font-size: calc(${({ theme }) => theme.typography.desktopSubheading} + 8px);
+    color: ${({ theme }) => theme.colors.primarytext};
     margin-bottom: 10px;
     font-family: "Lato", serif;
 
     @media screen and (max-width: 768px) {
-        font-size: calc(${({ theme}) => theme.typography.desktopSubHeading} + 6px);
+        font-size: calc(${({ theme}) => theme.typography.desktopSubheading} + 6px);
     }
 
     @media screen and (max-width: 480px) {
-        font-size: calc(${({ theme}) => theme.typography.desktopSubHeading} + 4px);
+        font-size: calc(${({ theme}) => theme.typography.desktopSubheading} + 4px);
     }
 `
 
 export const TestimonialText = styled.p`
     font-size: calc(${({ theme}) => theme.typography.desktopSubHeading} + 8px);
-    color: ${({ theme }) => theme.colors.primaryText};
+    color: ${({ theme }) => theme.colors.primarytext};
     margin-bottom: 10px;
     font-family: "Lato", serif;
     line-height: 1.5;

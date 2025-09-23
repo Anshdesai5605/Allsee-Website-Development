@@ -82,7 +82,7 @@ export const categories = [
 export const testimonials = [
     {
         id: 0,
-        name: "John Doe",
+        Name: "John Doe",
         bgColor: "#DE7700",
         testimonial: "Allsee's textiles transformed our brand image. The quality is unmatched!",
         stars: 4
