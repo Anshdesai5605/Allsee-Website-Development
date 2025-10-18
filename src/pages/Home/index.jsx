@@ -4,6 +4,7 @@ import StatsSection from '../../components/StatsSection';
 import About from '../../components/About';
 import TextileCategories from '../../components/TextileCategories';
 import Testimonials from '../../components/Testimonials';
+import Footer from '../../components/Footer';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <About />
       <TextileCategories />
       <Testimonials />
+   
   </>
   );
 };
